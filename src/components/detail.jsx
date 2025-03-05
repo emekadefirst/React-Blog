@@ -8,7 +8,7 @@ const BlogContent = ({ content }) => {
       <h1 className="text-lg font-bold text-gray-800 dark:text-white mb-4">
         {content.title}
       </h1>
-      <p className="text-gray-800 dark:text-neutral-200">{content.body}</p>
+      <p className="text-black dark:text-neutral-200">{content.body}</p>
     </div>
   );
 };
